@@ -31,7 +31,10 @@ export default function Analytics() {
     (<div className="flex flex-col min-h-[100dvh]">
       <header className="px-4 lg:px-6 h-14 flex items-center bg-background border-b">
         <Link href="#" className="flex items-center justify-center" prefetch={false}>
-          <MountainIcon className="h-6 w-6" />
+          <div className="flex items-center gap-4">
+            <MountainIcon className="h-6 w-6" />
+            <h1 className="text-2xl font-bold text-muted">Cyber Proof</h1>
+          </div>
           <span className="sr-only">Illicit Drug Trafficking Analytics</span>
         </Link>
         <nav className="ml-auto flex gap-4 sm:gap-6">

@@ -15,7 +15,10 @@ export default function Component() {
     <div className="flex flex-col min-h-[100dvh]">
       <header className="px-4 lg:px-6 h-14 flex items-center justify-between bg-background border-b">
         <Link href="/dashboard" className="flex items-center justify-center" prefetch={false}>
-          <MountainIcon className="h-6 w-6" />
+          <div className="flex items-center gap-4">
+            <MountainIcon className="h-6 w-6" />
+            <h1 className="text-2xl font-bold text-muted">Cyber Proof</h1>
+          </div>
           <span className="sr-only">Illicit Drug Trafficking Analytics</span>
         </Link>
         <nav className="flex gap-4 sm:gap-6">
